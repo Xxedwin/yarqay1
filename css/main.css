@@ -14,7 +14,7 @@ footer {
 }
 /*before footer-tile*/
 .before-title {
-    height: 60%;
+    height: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +25,6 @@ footer {
     font-size: 18px;
     margin: 0 1em 0 0.1em;
 }
-.social-networks a{
-    color: rgb(26, 26, 26);
-    }
 .social-networks {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +33,10 @@ footer {
 }
 .social-networks li {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
+}
+.social-networks a {
+    text-decoration: none;
 }
 .menu1 {
     margin-top: 10px;
@@ -82,7 +82,7 @@ footer {
 	display: flex;
 	align-items: center;
 }
-/**/
+
 @media screen and (min-width: 600px){
 	footer {
     height: 100px;
